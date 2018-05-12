@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<VBox fx:id="begin" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.RefundPageController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" text="Please insert your receipt and ticket. &#10;Thank you!" textAlignment="CENTER" translateY="-50.0">
+         <font>
+            <Font name="Klee Demibold" size="28.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="5.0" right="5.0" top="5.0" />
+         </VBox.margin>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </Label>
+      <Button mnemonicParsing="false" onAction="#cancel" text="Cancel">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#Confirm" text="Confirm(Test use,page should be redirected automatically after reading a receipt)">
+         <VBox.margin>
+            <Insets top="20.0" />
+         </VBox.margin></Button>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+</VBox>

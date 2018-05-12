@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<VBox fx:id="begin" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ConfirmPageController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" text="Thank you Payment Confirmed!" textAlignment="CENTER">
+         <font>
+            <Font name="Klee Demibold" size="35.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="5.0" right="5.0" top="5.0" />
+         </VBox.margin>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </Label>
+      <Label text="Details:&#10;     ID: 00001&#10;     Current Time: 4:40pm&#10;     Duration: 1 hour 15mins&#10;     Payment: $1.25">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin>
+      </Label>
+      <Label text="Please do not forget to take your reciept!" textFill="#e40606">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <VBox.margin>
+            <Insets top="40.0" />
+         </VBox.margin>
+      </Label>
+      <Button mnemonicParsing="false" onAction="#home" text="Home">
+         <VBox.margin>
+            <Insets left="370.0" top="40.0" />
+         </VBox.margin>
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+</VBox>
